@@ -12,3 +12,7 @@ compression: maximum
 nsis:
   perMachine: true
   oneClick: true
+publish:
+  - provider: generic
+    url: http://192.168.101.18:8080
+
