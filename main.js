@@ -1,5 +1,6 @@
 const { app, BrowserWindow } = require('electron')
 const { is } = require('electron-util')
+const { autoUpdater } = require('electron-updater')
 const path = require('path')
 
 process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = true
@@ -30,7 +31,15 @@ function createWindow () {
   })
 }
 
-app.on('ready', createWindow)
+autoUpdater.setFeedURL('http://192.168.101.18:8080')
+app.on('ready', () => {
+  createWindow()
+  autoUpdater.checkForUpdatesAndNotify()
+})
+
+autoUpdater.on('update-downloaded', () => {
+  autoUpdater.quitAndInstall()
+})
 
 app.on('window-all-closed', function () {
   is.macos && app.quit()
