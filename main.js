@@ -2,6 +2,8 @@ const { app, BrowserWindow } = require('electron')
 const { is } = require('electron-util')
 const path = require('path')
 
+process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = true
+
 let mainWindow
 
 is.development &&
