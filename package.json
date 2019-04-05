@@ -7,11 +7,11 @@
     "start": "electron .",
     "lint": "standard",
     "fix": "standard --fix",
-    "build": "electron-builder -mw",
-    "build:w32": "electron-builder -w --ia32",
-    "build:w64": "electron-builder -w --x64",
-    "build:m": "electron-builder -m",
-    "build:l": "electron-builder -l"
+    "build": "build -mw",
+    "build:w32": "build -w --ia32",
+    "build:w64": "build -w --x64",
+    "build:m": "build -m",
+    "build:l": "build -l"
   },
   "repository": {
     "type": "git",
