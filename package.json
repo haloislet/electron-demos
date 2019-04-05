@@ -1,6 +1,6 @@
 {
   "name": "electron-demos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "electron 使用例子",
   "main": "main.js",
   "scripts": {
