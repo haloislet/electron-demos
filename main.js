@@ -31,7 +31,6 @@ function createWindow () {
   })
 }
 
-autoUpdater.setFeedURL('http://192.168.101.18:8080')
 app.on('ready', () => {
   createWindow()
   autoUpdater.checkForUpdatesAndNotify()
