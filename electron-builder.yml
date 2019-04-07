@@ -12,6 +12,7 @@ compression: maximum
 win:
   certificateFile: "build/halo.pfx"
   publisherName: halo
+  certificatePassword: 123456
 nsis:
   perMachine: true
   oneClick: true
