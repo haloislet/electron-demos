@@ -1,7 +1,7 @@
-# <img src="./build/icon.png" width="40px"> electron 基础示例
+# electron 基础示例
 ![GitHub release](https://img.shields.io/github/release/haloislet/electron-demos.svg?style=popout) ![GitHub last commit](https://img.shields.io/github/last-commit/haloislet/electron-demos.svg?style=popout) ![GitHub Release Date](https://img.shields.io/github/release-date/haloislet/electron-demos.svg?style=popout)
 
-> electron-demos 包含 electron 基本开发环境和一些常用功能极简示例
+> <img src="./build/icon.png" width="40px"> electron-demos 包含 electron 基本开发环境和一些常用功能极简示例
 
 <br>
 
