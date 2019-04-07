@@ -20,7 +20,7 @@ yarn
 $ npm start
 ```
 
-构建生产环境
+打包
 ```bash
 $ npm run build
 ```
@@ -29,3 +29,17 @@ $ npm run build
 ```
 $ npm run build -- -p always
 ```
+
+<br>
+
+## 待办事项
+- [x] 添加常用开发包
+- [x] 区分开发环境和打包环境
+- [x] 配置 electron-builder 
+- [x] 自动更新
+- [x] 从 http 服务器更新软件
+- [x] 从 github release 更新软件
+- [x] 生成自签名 pfx
+- [x] 使用 pfx 签发软件
+- [ ] 隔离测试包和正式包配置
+- [ ] 搭建 electron-release-server
