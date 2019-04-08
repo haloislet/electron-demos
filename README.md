@@ -45,3 +45,4 @@ $ npm run build -- -p always
 - [ ] 搭建 electron-release-server
 - [ ] ci
 - [ ] docker 开发打包 win app
+- [ ] 增量更新
