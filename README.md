@@ -42,7 +42,7 @@ $ npm run build -- -p always
 - [x] 生成自签名 pfx
 - [x] 使用 pfx 签发软件
 - [ ] 隔离测试包和正式包配置
-- [ ] 搭建 electron-release-server
+- [x] 搭建 electron-release-server
 - [ ] ci
 - [ ] docker 开发打包 win app
 - [ ] 增量更新
