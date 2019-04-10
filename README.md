@@ -1,7 +1,7 @@
 <img src="build/icon.png" align="right" width="200" heigh="auto">
 
 # electron 基础示例
-![GitHub release](https://img.shields.io/github/release/haloislet/electron-demos.svg?style=popout) ![GitHub last commit](https://img.shields.io/github/last-commit/haloislet/electron-demos.svg?style=popout) ![GitHub Release Date](https://img.shields.io/github/release-date/haloislet/electron-demos.svg?style=popout)
+![GitHub release](https://img.shields.io/github/release/haloislet/electron-demos.svg?style=popout) ![GitHub last commit](https://img.shields.io/github/last-commit/haloislet/electron-demos.svg?style=popout) ![GitHub Release Date](https://img.shields.io/github/release-date/haloislet/electron-demos.svg?style=popout) [![Build Status](https://www.travis-ci.org/haloislet/electron-demos.svg?branch=master)](https://www.travis-ci.org/haloislet/electron-demos)
 
 > electron-demos 包含 electron 基本开发环境和一些常用功能极简示例
 
@@ -43,6 +43,6 @@ $ npm run build -- -p always
 - [x] 使用 pfx 签发软件
 - [ ] 隔离测试包和正式包配置
 - [x] 搭建 electron-release-server
-- [ ] ci
+- [x] ci
 - [ ] docker 开发打包 win app
 - [ ] 增量更新
