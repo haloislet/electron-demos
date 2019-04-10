@@ -46,3 +46,4 @@ $ npm run build -- -p always
 - [x] ci
 - [ ] docker 开发打包 win app
 - [ ] 增量更新
+- [ ] 添加测试
