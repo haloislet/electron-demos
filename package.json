@@ -4,6 +4,7 @@
   "description": "electron 使用例子",
   "main": "main.js",
   "scripts": {
+    "dev": "electron . --enable-logging",
     "start": "electron .",
     "lint": "standard",
     "fix": "standard --fix",
