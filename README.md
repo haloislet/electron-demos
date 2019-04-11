@@ -43,6 +43,6 @@ $ npm run build -- -p always
 - [x] 使用 pfx 签发软件
 - [ ] 隔离测试包和正式包配置
 - [x] 搭建 electron-release-server
-- [x] ci
-- [ ] docker 开发打包 win app
+- [x] 添加 ci
+- [ ] ci 打包
 - [ ] 添加测试
