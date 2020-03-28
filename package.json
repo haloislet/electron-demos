@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "electron-log": "^3.0.5",
-    "electron-updater": "^4.0.6",
+    "electron-updater": "^4.2.2",
     "electron-util": "^0.11.0"
   }
 }
